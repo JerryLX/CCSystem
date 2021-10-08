@@ -1,0 +1,37 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>基于常识的拥塞控制平台</title>
+</head>
+
+<body>
+
+<div onclick="window.location.href='http:\/\/139.159.200.151:8080/demonstration/';return false" style="padding: 30px; background: #f1f1f1; font-family: arial, 黑体, serif; font-size:40px">
+    <img  src="/static/sjtu.png" style="width:300px; height:auto; vertical-align: middle">
+    <b>基于常识的拥塞控制</b>
+</div>
+
+    <div>
+        <a href={{file}}>下载完整测试报告</a>
+
+        <div style="text-align: center;">
+            <img src="{{delay}}"/>
+        </div>
+        
+        <div style="text-align: center;"> 
+            <img src="{{throughput}}" /> 
+        </div>
+    </div>
+
+</body>
+<div  style="width:100%; padding: 15px; background: #f1f1f1; font-family: arial, 黑体, serif; font-size:15px; text-align: center;">
+                 Copyright 2021 上海交通大学 天地网络大数据实验室
+                 <br>
+                 联系地址：上海市闵行区东川路800号上海交通大学软件学院1219
+                 <br>
+                 github地址：https://github.com/SJTU-OpenNetwork
+             </div>
+
+</html>
